@@ -1,0 +1,15 @@
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a9396; /* Secondary Color */
+}
+
+.navigation a {
+  color: white;
+  padding: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navigation a:hover {
+  color: #ee9b00; /* Accent Color */
+}

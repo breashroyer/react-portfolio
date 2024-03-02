@@ -1,0 +1,11 @@
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #005f73; /* Primary Color */
+  color: white; /* Sets text color to white */
+}
+
+/* If your name is wrapped in a specific element like an <h1>, you can target it directly for more specificity */
+.header h1 {
+  color: white; /* Ensures your name, if specifically styled, is white */
+}

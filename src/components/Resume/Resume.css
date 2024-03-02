@@ -1,0 +1,14 @@
+.resume a {
+    display: inline-block;
+    background-color: #005f73; /* Primary Color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume a:hover {
+    background-color: #ee9b00; /* Accent Color */
+  }
+  

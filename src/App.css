@@ -1,0 +1,64 @@
+/* Global Resets */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: #292b2c; /* Text Color */
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Accessible & Readable Font */
+  background-color: #e9d8a6; /* Background Color */
+  color: #292b2c; /* Text Color */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #005f73; /* Primary Color */
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Utility Classes */
+.btn {
+  display: inline-block;
+  background: #005f73; /* Primary Color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ee9b00; /* Accent Color */
+}
+
+/* Responsive Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+}
+

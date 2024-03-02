@@ -1,0 +1,43 @@
+/* Container for the contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background to distinguish the form area */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Style for form inputs and textarea */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+  }
+  
+  /* Style for the submit button */
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #005f73; /* Primary color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ee9b00; /* Accent color for hover state */
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #d9534f; /* Red color for errors */
+    margin-bottom: 20px;
+  }
+  

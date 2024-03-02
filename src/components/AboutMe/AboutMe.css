@@ -1,0 +1,46 @@
+/* Container styling for the About Me section */
+.about-me {
+    background-color: #f8f9fa; /* Light background color for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    margin: 20px 0; /* Spacing around the section */
+    text-align: center; /* Center-align the text for focus */
+  }
+  
+  /* Styling for the image/avatar */
+  .about-me img {
+    width: 150px; /* Fixed width, adjust as needed */
+    height: 150px; /* Fixed height to maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 20px; /* Space between image and text */
+    object-fit: cover; /* Ensures the image covers the area nicely */
+  }
+  
+  /* Styling for the bio text */
+  .about-me p {
+    color: #333; /* Slightly dark color for readability */
+    font-size: 1rem; /* Adequate font size for readability */
+    line-height: 1.6; /* Line height for better text flow */
+    margin: 0 auto; /* Center the text block */
+    max-width: 800px; /* Max width to control line length */
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .about-me {
+      display: flex; /* Switch to flex layout for larger screens */
+      align-items: center; /* Align items vertically */
+      text-align: left; /* Align text to the left */
+    }
+  
+    .about-me img {
+      margin-right: 20px; /* Space between image and text */
+      margin-bottom: 0; /* Remove bottom margin */
+    }
+  
+    .about-me p {
+      text-align: left; /* Ensure text aligns to the left */
+    }
+  }
+  

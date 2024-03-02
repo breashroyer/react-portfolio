@@ -1,0 +1,40 @@
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: #f9f9f9; /* Background color for project items */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect for project items */
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Text color for project titles */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-links {
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #005f73; /* Link color for project links */
+}
+
+.project-links a:hover {
+  color: #ee9b00; /* Hover color for project links */
+}
+
